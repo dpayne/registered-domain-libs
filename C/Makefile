@@ -1,6 +1,6 @@
 
-CC     = gcc
-CFLAGS = -g -O2 -std=c99 \
+CC     ?= gcc
+CFLAGS ?= -g -O2 -std=c99 \
 	 -pedantic -Wall -Wextra -Werror -Wwrite-strings \
 	 -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs \
 	 -Wredundant-decls -Wcast-qual -Wcast-align -Winline \
